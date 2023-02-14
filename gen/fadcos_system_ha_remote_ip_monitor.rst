@@ -64,12 +64,12 @@ Parameters
 
     <ul>
     <li> <span class="li-head">action</span> - Type of action to perform on the object.<span class="li-normal">type: str</span> <span class="li-required">required: true</span></li>
-    <li> <span class="li-head">name</span> - ha remote ip monitor name.<span class="li-normal">type: str</span> <span class="li-required">required: true</span></li>
-    <li> <span class="li-head">health_check_interval</span> - health check interval for remote ip (1-3600 sec).<span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
-    <li> <span class="li-head">health_check_timeout</span> - health check timeout for remote ip (1-3600 sec).<span class="li-normal">type: str</span> <span class="li-required">required: true (if action is add)</span> </li>
-    <li> <span class="li-head">health_check_retry</span> - health check retry times for remote ip (1-10).<span class="li-normal">type: str</span> <span class="li-required">required: true (if action is add)</span> </li>
-    <li> <span class="li-head">remote_address</span> - remote ip address.<span class="li-normal">type: str</span> <span class="li-required">required: true (if action is add)</span> </li>
-    <li> <span class="li-head">source_port</span> - source interface.<span class="li-normal">type: str</span> <span class="li-required">required: true(if VDOM is enabled)</li>
+    <li> <span class="li-head">name</span> - ha remote ip monitor name.<span class="li-normal">type: str</span> <span class="li-required">required: false</span></li>
+    <li> <span class="li-head">health_check_interval</span> - health check interval for remote ip (1-3600 sec).<span class="li-normal">type: str</span> <span class="li-required">required: false</span> </li>
+    <li> <span class="li-head">health_check_timeout</span> - health check timeout for remote ip (1-3600 sec).<span class="li-normal">type: str</span> <span class="li-required">required: false</span> </li>
+    <li> <span class="li-head">health_check_retry</span> - health check retry times for remote ip (1-10).<span class="li-normal">type: str</span> <span class="li-required">required: false</span> </li>
+    <li> <span class="li-head">remote_address</span> - remote ip address.<span class="li-normal">type: str</span> <span class="li-required">required: false</span> </li>
+    <li> <span class="li-head">source_port</span> - source interface.<span class="li-normal">type: str</span> <span class="li-required">required: false</li>
     </ul>
 
 

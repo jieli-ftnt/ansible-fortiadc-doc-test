@@ -63,8 +63,8 @@ Parameters
 .. raw:: html
 
     <ul>
-    <li> <span class="li-head">mgmt_interface</span> - Management interface. <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
-    <li> <span class="li-head">local_node_id</span> - local node id (0-7). <span class="li-normal">type: str</span> <span class="li-required">required: true</span> </li>
+    <li> <span class="li-head">mgmt_interface</span> - Management interface. <span class="li-normal">type: str</span> <span class="li-required">required: false</span> </li>
+    <li> <span class="li-head">local_node_id</span> - local node id (0-7). <span class="li-normal">type: str</span> <span class="li-required">required: false</span> </li>
     <li> <span class="li-head">peer_address</span> - Fort unicast peer ip address. <span class="li-normal">type: str</span> <span class="li-required">required: false</span> </li>
     <li> <span class="li-head">group_name</span> - group name. <span class="li-normal">type: str</span> <span class="li-required">required: false</span> </li>
     <li> <span class="li-head">sync_l4_persistent</span> - sync l4 persistent. <span class="li-normal">type: str</span> <span class="li-required">required: false</span> </li>
