@@ -10,7 +10,7 @@ Release Galaxy 1.0.2
 Release Targets
 ^^^^^^^^^^^^^^^
 
-FortiADC Galaxy 1.0.2 is based on 1.0.2.
+FortiADC Galaxy 1.0.2 is based on 1.0.1.
 
 Features
 ^^^^^^^^^^^^^^^
